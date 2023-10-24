@@ -5,28 +5,39 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Card</title>
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="img-favicon/favicon-32x32.png" type="image/x-icon">
+
 </head>
 
 <body>
 	<main>
 		<section class="card-content">
-			<div class="photo">
-				<img src="img-produto/image-product-desktop.jpg" alt="Imagem do Produto - Perfume">
+			<div class="card-photo">
+				<img src="img-produto/image-product-desktop.jpg" alt="Imagem do Produto - Perfume" id="img-produto">
 			</div>
 
-			<div class="content">
-				<h2 id="text-product">PERFUME</h2>
-				<h1 id="text-product-name">Grabrielle Essence Eau De Perfum</h1>
+			<div class="product">
+				<h2>PERFUME</h2>
+				<h1>Grabrielle Essence Eau De Perfum</h1>
 				<p>A floral, solar and voluptous interpertration composed by Oliver Polge, Perfumer-Creator for the House of
 					CHANEL</p>
-				<h3 id="text-price">$149.99</h3>
-				<h4 id="text-small-price">$169.99</h4>
+				<div class="price">
+					<h3>$149.99</h3>
+					<h4>$169.99</h4>
+				</div>
+
+				<div>
+					<a href="x">
+						<button class="button-cart">
+							<img src="img-cart/icon-cart.svg" alt="Imagem de um carrinho de compras" id="icon-bottom">
+							<h2 class="button-text">Add to Cart</h2>
+						</button>
+					</a>
+				</div>
 			</div>
 
-			<div class="bottom-cart">
-				<h2 id="text-bottom">Add to Cart</h2>
-				<img src="img-cart/icon-cart.svg" alt="Imagem de um carrinho de compras" id="icon-bottom">
-			</div>
 
 		</section>
 	</main>
