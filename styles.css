@@ -1,6 +1,13 @@
+main {
+  background-color: #f1e9e2;
+  width: 900px;
+  height: 650px;
+}
+
 /* Edição para a imagem ------------- */
 #img-produto {
-  width: 300px;
+  width: 280px;
+  height: 420px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -8,46 +15,64 @@
 /* Edição Conteúdo ------------------ */
 .card-content {
   display: flex;
+  justify-content: center;
+  padding: 100px;
 }
 
 .product {
-  width: 300px;
-  height: 450px;
-  background-color: aquamarine;
+  width: 280px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.product h1 {
+h1.product-name {
   font-size: 30px;
-  padding: 5px 20px;
+  margin: 0px 30px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding-right: 20px;
+  line-height: 30px;
 }
 
-.product h2 {
+h2.product-type {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
-  padding: 5px 20px;
+  font-weight: 500;
+  margin: 30px 30px 20px 30px;
+  letter-spacing: 5px;
 }
 
-.product p {
-  font-size: 10px;
-  margin: 0px;
-  padding: 5px 30px;
+p.product-description {
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 20px 30px 20px 30px;
+  line-height: 20px;
 }
 
 .price {
   display: flex;
+  align-items: center;
 }
 
 .price h3 {
-  font-size: 15px;
-  margin: 0px;
-  padding: 5px 30px;
+  color: #487a66;
+  font-size: 31px;
+  margin: 0 20px 0 30px;
+  font-family: "Fraunces", serif;
 }
 
 .price h4 {
-  font-size: 5px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
   margin: 0px;
-  padding: 5px 30px;
+  text-decoration-line: line-through;
 }
 
 /* Edição Botão ----------------------*/
@@ -56,15 +81,27 @@
   text-align: center;
   justify-content: center;
   cursor: pointer;
-  margin: auto;
+  margin: 30px 0 0 30px;
   align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #1a4031;
+  width: 220px;
+  height: 40px;
 }
 
-.button-text h2 {
+a {
+  text-decoration: none;
+}
+
+h2.button-text {
+  color: white;
   font-size: 10px;
-  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10px;
 }
 
 #icon-bottom {
-  width: auto;
+  width: 12px;
+  height: 12px;
 }
